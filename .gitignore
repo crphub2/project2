@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pkl
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+*.env
+
+# VSCode settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data/Model/Reports folders – ignore all except .gitkeep
+data/*
+models/*
+reports/*
+!data/.gitkeep
+!models/.gitkeep
+!reports/.gitkeep
